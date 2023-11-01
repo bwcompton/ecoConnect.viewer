@@ -1,0 +1,12 @@
+name: ecoConnect
+title: ecoConnect
+username: umassdsl
+account: umassdsl
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10384518
+bundleId: 7879488
+url: https://umassdsl.shinyapps.io/ecoConnect/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
