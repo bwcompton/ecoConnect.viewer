@@ -16,9 +16,8 @@ home <- c(-75, 42)            # center of NER (approx)
 zoom <- 6                     # starting zoom level
 opacity = 0.6                 # opacity of layers
 
-layers <- c('Forest_fowet', 'Ridgetop', 'LR_floodplain_forest', 'Nonfo_wet')
-names <- c('Forests', 'Ridgetop systems', 'Large river floodplain forests',
-           'Nonforested wetlands')
+layers <- c('Forest_fowet', 'Nonfo_wet', 'Ridgetop', 'LR_floodplain_forest')
+names <- c('Forests', 'Nonforested wetlands', 'Ridgetop systems', 'Large river floodplain forests')
 
 shortdoc <- includeMarkdown('inst/shortdoc.md')             # About ecoConnect
 
