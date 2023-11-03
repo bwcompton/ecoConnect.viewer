@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+  <NamedLayer>
+    <Name>wetlands</Name>
+    <UserStyle>
+      <Name>wetlands</Name>
+      <Title>Style for wetlands</Title>
+      <Abstract>GeoServer style from make.style for wetlands</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <RasterSymbolizer>
+            <Opacity>1.0</Opacity>
+            <ColorMap>
+              <ColorMapEntry color="#F9F9F9" quantity="1"/>
+              <ColorMapEntry color="#F9F9FB" quantity="2"/>
+              <ColorMapEntry color="#F8F8FC" quantity="3"/>
+              <ColorMapEntry color="#F8F7FD" quantity="4"/>
+              <ColorMapEntry color="#F7F6FD" quantity="5"/>
+              <ColorMapEntry color="#F6F5FE" quantity="6"/>
+              <ColorMapEntry color="#F5F4FE" quantity="7"/>
+              <ColorMapEntry color="#F4F3FF" quantity="8"/>
+              <ColorMapEntry color="#F3F1FF" quantity="9"/>
+              <ColorMapEntry color="#F1F0FF" quantity="10"/>
+              <ColorMapEntry color="#F0EFFF" quantity="11"/>
+              <ColorMapEntry color="#EFEDFF" quantity="12"/>
+              <ColorMapEntry color="#EEECFF" quantity="13"/>
+              <ColorMapEntry color="#ECEAFF" quantity="14"/>
+              <ColorMapEntry color="#EBE9FF" quantity="15"/>
+              <ColorMapEntry color="#E9E7FE" quantity="16"/>
+              <ColorMapEntry color="#E8E5FE" quantity="17"/>
+              <ColorMapEntry color="#E6E4FE" quantity="18"/>
+              <ColorMapEntry color="#E5E2FE" quantity="19"/>
+              <ColorMapEntry color="#E3E0FD" quantity="20"/>
+              <ColorMapEntry color="#E2DEFD" quantity="21"/>
+              <ColorMapEntry color="#E0DDFC" quantity="22"/>
+              <ColorMapEntry color="#DEDBFC" quantity="23"/>
+              <ColorMapEntry color="#DDD9FB" quantity="24"/>
+              <ColorMapEntry color="#DBD7FA" quantity="25"/>
+              <ColorMapEntry color="#D9D5FA" quantity="26"/>
+              <ColorMapEntry color="#D7D3F9" quantity="27"/>
+              <ColorMapEntry color="#D5D1F8" quantity="28"/>
+              <ColorMapEntry color="#D4CFF8" quantity="29"/>
+              <ColorMapEntry color="#D2CDF7" quantity="30"/>
+              <ColorMapEntry color="#D0CBF6" quantity="31"/>
+              <ColorMapEntry color="#CEC9F5" quantity="32"/>
+              <ColorMapEntry color="#CCC7F4" quantity="33"/>
+              <ColorMapEntry color="#CAC5F3" quantity="34"/>
+              <ColorMapEntry color="#C8C3F3" quantity="35"/>
+              <ColorMapEntry color="#C6C1F2" quantity="36"/>
+              <ColorMapEntry color="#C4BEF1" quantity="37"/>
+              <ColorMapEntry color="#C2BCF0" quantity="38"/>
+              <ColorMapEntry color="#C0BAEF" quantity="39"/>
+              <ColorMapEntry color="#BEB8EE" quantity="40"/>
+              <ColorMapEntry color="#BCB5EC" quantity="41"/>
+              <ColorMapEntry color="#BAB3EB" quantity="42"/>
+              <ColorMapEntry color="#B8B1EA" quantity="43"/>
+              <ColorMapEntry color="#B6AFE9" quantity="44"/>
+              <ColorMapEntry color="#B3ACE8" quantity="45"/>
+              <ColorMapEntry color="#B1AAE7" quantity="46"/>
+              <ColorMapEntry color="#AFA8E6" quantity="47"/>
+              <ColorMapEntry color="#ADA5E4" quantity="48"/>
+              <ColorMapEntry color="#ABA3E3" quantity="49"/>
+              <ColorMapEntry color="#A8A0E2" quantity="50"/>
+              <ColorMapEntry color="#A69EE1" quantity="51"/>
+              <ColorMapEntry color="#A49CDF" quantity="52"/>
+              <ColorMapEntry color="#A299DE" quantity="53"/>
+              <ColorMapEntry color="#9F97DD" quantity="54"/>
+              <ColorMapEntry color="#9D94DC" quantity="55"/>
+              <ColorMapEntry color="#9B92DA" quantity="56"/>
+              <ColorMapEntry color="#998FD9" quantity="57"/>
+              <ColorMapEntry color="#968DD7" quantity="58"/>
+              <ColorMapEntry color="#948AD6" quantity="59"/>
+              <ColorMapEntry color="#9288D5" quantity="60"/>
+              <ColorMapEntry color="#8F85D3" quantity="61"/>
+              <ColorMapEntry color="#8D82D2" quantity="62"/>
+              <ColorMapEntry color="#8B80D1" quantity="63"/>
+              <ColorMapEntry color="#887DCF" quantity="64"/>
+              <ColorMapEntry color="#867BCE" quantity="65"/>
+              <ColorMapEntry color="#8478CC" quantity="66"/>
+              <ColorMapEntry color="#8175CB" quantity="67"/>
+              <ColorMapEntry color="#7F73CA" quantity="68"/>
+              <ColorMapEntry color="#7C70C8" quantity="69"/>
+              <ColorMapEntry color="#7A6DC7" quantity="70"/>
+              <ColorMapEntry color="#786AC6" quantity="71"/>
+              <ColorMapEntry color="#7568C4" quantity="72"/>
+              <ColorMapEntry color="#7365C3" quantity="73"/>
+              <ColorMapEntry color="#7062BF" quantity="74"/>
+              <ColorMapEntry color="#6E60BC" quantity="75"/>
+              <ColorMapEntry color="#6C5EB9" quantity="76"/>
+              <ColorMapEntry color="#695BB6" quantity="77"/>
+              <ColorMapEntry color="#6759B2" quantity="78"/>
+              <ColorMapEntry color="#6457AF" quantity="79"/>
+              <ColorMapEntry color="#6254AC" quantity="80"/>
+              <ColorMapEntry color="#5F52A8" quantity="81"/>
+              <ColorMapEntry color="#5D50A5" quantity="82"/>
+              <ColorMapEntry color="#5A4DA2" quantity="83"/>
+              <ColorMapEntry color="#584B9F" quantity="84"/>
+              <ColorMapEntry color="#55489C" quantity="85"/>
+              <ColorMapEntry color="#534698" quantity="86"/>
+              <ColorMapEntry color="#514495" quantity="87"/>
+              <ColorMapEntry color="#4E4192" quantity="88"/>
+              <ColorMapEntry color="#4C3F8F" quantity="89"/>
+              <ColorMapEntry color="#493C8C" quantity="90"/>
+              <ColorMapEntry color="#473A89" quantity="91"/>
+              <ColorMapEntry color="#443786" quantity="92"/>
+              <ColorMapEntry color="#423583" quantity="93"/>
+              <ColorMapEntry color="#3F3280" quantity="94"/>
+              <ColorMapEntry color="#3D307D" quantity="95"/>
+              <ColorMapEntry color="#3B2D7B" quantity="96"/>
+              <ColorMapEntry color="#382A78" quantity="97"/>
+              <ColorMapEntry color="#362876" quantity="98"/>
+              <ColorMapEntry color="#332573" quantity="99"/>
+              <ColorMapEntry color="#312271" quantity="100"/>
+            </ColorMap>
+          </RasterSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
