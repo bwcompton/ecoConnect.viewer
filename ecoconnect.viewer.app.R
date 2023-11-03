@@ -1,5 +1,6 @@
 # ecoconnect.viewer.app
 # Stopgap ecoConnect website
+# We'll replace this with the full version in spring 2024
 # B. Compton, 11 Sep 2023 (from ecoconnect.gallery.R)
 
 
@@ -38,10 +39,6 @@ ui <- fluidPage(
              helpText(HTML('<i>Coming soon</i>: a full-featured web viewer and site-scoring tool for ecoConnect and the 
                  Index of Ecological Integrity. This stopgap viewer shows ecoConnect for four ecosystems. It will be 
                  replaced by the new viewer in Spring 2024.')),
-             # helpText(HTML('<i>Coming soon</i>: UMass Designing Sustainable Landscapes is working on a full-featured web viewer and site-scoring tool for ecoConnect and the 
-             #     Index of Ecological Integrity, funded by USGS Northeast Climate Adaptation Science Center. This 
-             #     stopgap viewer shows ecoConnect for four ecosystems. It will be replaced by the new viewer in 
-             #     Spring 2024.<br><br>')),
       ),
       column(2,
              br(),
@@ -55,10 +52,9 @@ ui <- fluidPage(
       ),
    ),      
    mainPanel(
-      leafletOutput("map", height = '60vh', width = '90vw')
+      leafletOutput("map", height = '65vh', width = '95vw')
    )
 )
-
 
 
 server <- function(input, output, session) {
