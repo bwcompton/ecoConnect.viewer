@@ -1,4 +1,4 @@
-﻿Landscape connectivity is vital to the long-term survival of plant and animal populations. At varying scales, connectivity is necessary for feeding, migration, mating, genetic diversity, and dispersal to new areas. As climate change alters habitat, species will be forced to alter their ranges, dispersing great distances over generations. Where connectivity is broken by unsuitable habitat, development, and roads, populations may face extinction. **ecoConnect**, our model of regional connectivity, informs conservationists reconnecting the landscape in the Northeast.
+Landscape connectivity is vital to the long-term survival of plant and animal populations. At varying scales, connectivity is necessary for feeding, migration, mating, genetic diversity, and dispersal to new areas. As climate change alters habitat, species will be forced to alter their ranges, dispersing great distances over generations. Where connectivity is broken by unsuitable habitat, development, and roads, populations may face extinction. **ecoConnect**, our model of regional connectivity, informs conservationists reconnecting the landscape in the Northeast.
 
 We start the analysis by selecting points with high ecological integrity in a 2 km grid. These points are connected to other points within 5 km based on development, road traffic, and ecological similarity to each starting point. These connections are made with *random low cost paths*, mapping a large number of suboptimal routes, yielding paths that represent local connectivity. We count the number of times each path is used in connecting each pair of points across the entire Northeast, and use this regional analysis to weight local connectivity, resulting in models of regional connectivity that are
 
@@ -12,3 +12,5 @@ ecoConnect can be used to assess the level of connectivity among existing conser
 Funded by USGS Northeast Climate Adaptation Science Center and USDA Renewable Resources Extension Act.
 
 <a href="https://umassdsl.org/data/ecoConnect" target="_blank" rel="noopener noreferrer">ecoConnect home page</a>
+
+Questions, bugs, problems, suggestions? <a href="https://umassdsl.webgis1.com/hesk/index.php?a=add&category=5" target="_blank" rel="noopener noreferrer">Let us know</a>
