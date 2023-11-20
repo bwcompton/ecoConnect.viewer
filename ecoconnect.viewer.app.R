@@ -2,6 +2,7 @@
 # Stopgap ecoConnect website
 # We'll replace this with the full version in spring 2024
 # B. Compton, 11 Sep 2023 (from ecoconnect.gallery.R)
+# 20 Nov 2023: lighten basemap up a bit
 
 
 
@@ -15,6 +16,7 @@ source('modalHelp.R')
 home <- c(-75, 42)            # center of NER (approx)
 zoom <- 6                     # starting zoom level
 opacity = 0.6                 # opacity of layers
+opacity.basemap = 0.85        # opacity of basemap
 
 layers <- c('Forest_fowet', 'Nonfo_wet', 'Ridgetop', 'LR_floodplain_forest')
 names <- c('Forests', 'Nonforested wetlands', 'Ridgetop systems', 'Large river floodplain forests')
@@ -65,7 +67,7 @@ server <- function(input, output, session) {
       m<- leaflet()
       m <- addTiles(m, urlTemplate = '', attribution = '<a href="https://umassdsl.org"
                     target="_blank" rel="noopener noreferrer">UMass DSL</a>')
-      m <- addProviderTiles(m, provider = 'Stadia.StamenTonerLite')
+      m <- addProviderTiles(m, provider = 'Stadia.StamenTonerLite', options = providerTileOptions(opacity = opacity.basemap))
       
       for(i in 1:length(layers)) {
          m <- m |> addWMSTiles('https://umassdsl.webgis1.com/geoserver/wms', 

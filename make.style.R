@@ -1,6 +1,6 @@
 'make.style' <- function(palette, count = 100, range = c(1, 100), reverse = FALSE,
                          name = paste0(gsub('[: ]+', '_', palette), '_', count),
-                         abstract = paste('GeoServer style from make.style for', name), 
+                         abstract = paste('GeoServer style from make.style for', name, 'using palette', palette), 
                          path = 'C:/Users/bcompton/Desktop/') {
    
    # Make an SLD 1.0 style file for raster legends on GeoServer
