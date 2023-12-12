@@ -7,7 +7,7 @@
     <UserStyle>
       <Name>forests</Name>
       <Title>Style for forests</Title>
-      <Abstract>GeoServer style from make.style for forests</Abstract>
+      <Abstract>GeoServer style from make.style for forests using palette grDevices::Greens 3</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>

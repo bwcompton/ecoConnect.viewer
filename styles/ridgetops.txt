@@ -7,7 +7,7 @@
     <UserStyle>
       <Name>ridgetops</Name>
       <Title>Style for ridgetops</Title>
-      <Abstract>GeoServer style from make.style for ridgetops</Abstract>
+      <Abstract>GeoServer style from make.style for ridgetops using palette ggthemes::Orange</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
