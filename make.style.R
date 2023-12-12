@@ -57,7 +57,7 @@
              '</StyledLayerDescriptor>')
    
    
-   result <- paste(path, '/', name, '.txt', sep = '')
+   result <- paste(path, name, '.txt', sep = '')
    writeLines(c(head, z, tail), result)
    cat('Result written to ', result, '')
 }

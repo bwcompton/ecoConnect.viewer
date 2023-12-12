@@ -11,5 +11,5 @@ source('g:/R/ecoConnect.viewer/make.style.R')
 
 make.style('grDevices::Greens 3', reverse = TRUE, name = 'forests')
 make.style('ggthemes::Orange', name = 'ridgetops')
-make.style('grDevices::Purples 3', reverse = TRUE, name = 'wetlands')
+make.style('ggthemes::Classic Blue', name = 'wetlands')
 make.style('ggthemes::Blue-Teal', name = 'floodplains')
