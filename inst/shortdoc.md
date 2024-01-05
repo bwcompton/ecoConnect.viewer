@@ -9,7 +9,7 @@ We started the analysis by selecting points with high ecological integrity in a 
 
 ecoConnect can be used to assess the level of connectivity among existing conservation land, and to target additional land to conserve connectivity, including   land important for connectivity that might not otherwise be protected because it is not highly rated for habitat quality or ecological integrity. It can also be used to assess potential locations for road crossing structures for wildlife and identify bridges and culverts that may already provide connectivity under high-traffic roads.
 
-Funded by USGS Northeast Climate Adaptation Science Center, USDA Renewable Resources Extension Act, and McIntire-Stennis
+Funded by USGS Northeast Climate Adaptation Science Center and the intramural research program of the U.S. Department of Agriculture, National Institute of Food and Agriculture, McIntire-Stennis and Renewable Resources Extension Act (RREA) programs.
 
 <a href="https://landeco.umass.edu/web/lcc/dsl/ecoconnect/dsl_documentation_ecoConnect.pdf">How ecoConnect works</a>
 

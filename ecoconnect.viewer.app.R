@@ -64,7 +64,7 @@ server <- function(input, output, session) {
       modalHelp(shortdoc, 'About ecoConnect')})
    
    output$map <- renderLeaflet({
-      m<- leaflet()
+      m <- leaflet()
       m <- addTiles(m, urlTemplate = '', attribution = '<a href="https://umassdsl.org"
                     target="_blank" rel="noopener noreferrer">UMass DSL</a>')
       m <- addProviderTiles(m, provider = 'Stadia.StamenTonerLite', options = providerTileOptions(opacity = opacity.basemap))
