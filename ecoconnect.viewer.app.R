@@ -39,7 +39,7 @@ ui <- fluidPage(
       column(5, 
              helpText(HTML('<i>Coming soon</i>: a full-featured web viewer and site-scoring tool for ecoConnect and the 
                  Index of Ecological Integrity. This stopgap viewer shows ecoConnect for four ecosystems. It will be 
-                 replaced by the new viewer in Spring 2024.')),
+                 replaced by the new viewer in Summer 2024.')),
       ),
       column(2,
              br(),
@@ -71,7 +71,7 @@ server <- function(input, output, session) {
       
       for(i in 1:length(layers)) {
          m <- m |> addWMSTiles('https://umassdsl.webgis1.com/geoserver/wms', 
-                               layers = qq <- paste0('ecoConnect:', layers[i]), group = names[i],            
+                               layers = paste0('ecoConnect:', layers[i]), group = names[i],            
                                options = WMSTileOptions(opacity = opacity))
       }
       
